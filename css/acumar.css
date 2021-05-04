@@ -1,0 +1,128 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+header {width: 100%; 
+		height: auto; 
+	}
+
+
+/* ------------------ NAVEGADOR SUPERIOR ------------------*/
+#nav-superior{
+	width: 100%;
+	height: auto;
+	background: #6A9FD1;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px;
+}
+
+#nav-superior h1{
+	width: 25%;
+	height: auto;
+}
+
+#logo {
+	width: auto;
+	height: auto;
+}
+
+#logo img {
+	width: 200px;
+	height: auto;
+}
+
+/*-------------------- NAVEGADOR MEDIO --------------------*/
+
+#nav-medio {
+	width: 100%;
+	height: auto; 
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background: #7DCBCB;
+	padding: 5px;
+	box-shadow: 0 1px 6px grey;
+}
+
+.contenedor {
+	width: 75%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.buscador {
+	width: 25%;
+	height: auto;
+	padding: 20px;
+	
+}
+
+.barra-busq{
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	outline: 0;
+	background: #f8f9fa;
+
+}
+
+ .barra-busq:focus {
+    border: 1px solid grey;
+    background-color: white;
+  }
+
+
+.boton {
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 1rem;
+	border: none;
+	background: #f8f9fa;
+	color: grey;
+	margin-left: 10px;
+	
+}
+
+.boton:hover{
+	color: black;
+	box-shadow: 1px 1px 4px grey;
+	cursor: pointer;
+}
+
+.boton:active{
+	padding: 4px;
+	box-shadow: 1px 1px 4px grey;
+	cursor: pointer;
+}
+
+.navbar{
+	width: 35%;
+	height: auto;
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
+	align-items: center;
+}
+
+.navbar li {
+	margin-right: 20px;
+	
+}
+
+.navbar a {
+	text-decoration: none;
+	font-size: 20px;
+	padding: 3px 3px;
+	color: black;
+	
+
+}
+
+.navbar a:hover{
+	border-bottom: 2px solid #6A9FD1;
+}
+
+
+
